@@ -254,7 +254,7 @@ ul {
 } /* ========================= ABOUT ========================= */
 
 .about-image img{
-  border-radius: 20px;
+  border-radius: 15px;
 }
 .about-grid {
   display: grid;
