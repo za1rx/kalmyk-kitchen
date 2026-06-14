@@ -252,6 +252,10 @@ ul {
   line-height: 1.7;
   color: #60708b;
 } /* ========================= ABOUT ========================= */
+
+.about-image img{
+  border-radius: 20px;
+}
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
