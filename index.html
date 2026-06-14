@@ -1,0 +1,297 @@
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калмыцкая кухня</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="top">
+        <div class="container">
+            <nav class="navbar">
+
+                <a href="#" class="logo">
+                    <span class="logo-icon">✦</span>
+                    Калмыцкая кухня
+                </a>
+
+                <ul class="nav-menu">
+                    <li><a href="#about">О кухне</a></li>
+                    <li><a href="#features">Особенности</a></li>
+                    <li><a href="#dishes">Блюда</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+
+                <button class="nav-btn">
+                    Попробовать
+                </button>
+
+                <button class="burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about">О кухне</a>
+        <a href="#features">Особенности</a>
+        <a href="#dishes">Блюда</a>
+        <a href="#contacts">Контакты</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container hero-grid">
+
+            <div class="hero-content reveal">
+                <span class="subtitle">
+                    Традиции кочевого народа
+                </span>
+
+                <h1>
+                    Калмыцкая <br>
+                    кухня
+                </h1>
+
+                <p>
+                    Вкус вековых традиций и кочевой культуры.
+                    Откройте для себя блюда, созданные природой,
+                    историей и временем.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#dishes" class="btn-primary">
+                        Узнать больше
+                    </a>
+
+                    <a href="#about" class="btn-secondary">
+                        О кухне
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image reveal">
+                <div class="circle-bg"></div>
+
+                <img
+                    src="assets/hero-food.png"
+                    alt="Калмыцкое блюдо"
+                    class="floating-image"
+                />
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features section" id="features">
+        <div class="container">
+
+            <div class="section-title reveal">
+                <h2>Особенности кухни</h2>
+                <p>Сила традиций, натуральность и гостеприимство</p>
+            </div>
+
+            <div class="features-grid">
+
+                <article class="feature-card reveal">
+                    <div class="feature-icon">🥣</div>
+                    <h3>Натуральные продукты</h3>
+                    <p>
+                        Используются мясо, молочные продукты,
+                        мука и природные ингредиенты.
+                    </p>
+                </article>
+
+                <article class="feature-card reveal">
+                    <div class="feature-icon">🔥</div>
+                    <h3>Традиции и история</h3>
+                    <p>
+                        Рецепты передаются из поколения
+                        в поколение, сохраняя вкус народа.
+                    </p>
+                </article>
+
+                <article class="feature-card reveal">
+                    <div class="feature-icon">🏕</div>
+                    <h3>Кочевое наследие</h3>
+                    <p>
+                        Блюда, рождённые степной жизнью
+                        и адаптированные к суровому климату.
+                    </p>
+                </article>
+
+                <article class="feature-card reveal">
+                    <div class="feature-icon">💙</div>
+                    <h3>Гостеприимство</h3>
+                    <p>
+                        Каждое блюдо — символ уважения
+                        и щедрости хозяев.
+                    </p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Dishes -->
+    <section class="dishes section" id="dishes">
+        <div class="container">
+
+            <div class="section-title reveal">
+                <h2>Популярные блюда</h2>
+                <p>Настоящий вкус Калмыкии</p>
+            </div>
+
+            <div class="dishes-grid">
+
+                <article class="dish-card reveal">
+                    <img src="assets/dishes/beriki.jpg" alt="Бёрики">
+                    <div class="dish-content">
+                        <h3>Бёрики</h3>
+                        <p>
+                            Сочные пельмени с мясной начинкой —
+                            традиционное блюдо калмыцкого стола.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="dish-card reveal">
+                    <img src="assets/dishes/mahan.jpg" alt="Махан шөлтеган">
+                    <div class="dish-content">
+                        <h3>Махан шөлтеган</h3>
+                        <p>
+                            Отварное мясо с луком —
+                            простое, насыщенное и питательное.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="dish-card reveal">
+                    <img src="assets/dishes/jomba.jpg" alt="Джомба">
+                    <div class="dish-content">
+                        <h3>Джомба</h3>
+                        <p>
+                            Традиционный калмыцкий чай
+                            с молоком, солью и специями.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="dish-card reveal">
+                    <img src="assets/dishes/bortsoki.jpg" alt="Борцоки">
+                    <div class="dish-content">
+                        <h3>Борцоки</h3>
+                        <p>
+                            Воздушная выпечка,
+                            любимое угощение к чаю.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+        <div class="container about-grid">
+
+            <div class="about-image reveal">
+                <img
+                    src="assets/yurt.png"
+                    alt="Юрта"
+                />
+            </div>
+
+            <div class="about-content reveal">
+                <span class="subtitle">
+                    Культурное наследие
+                </span>
+
+                <h2>О нашей кухне</h2>
+
+                <p>
+                    Калмыцкая кухня — это отражение истории,
+                    культуры и традиций кочевого народа.
+                    Простые ингредиенты, сытные блюда и
+                    уважение к гостю делают её по-настоящему
+                    уникальной.
+                </p>
+
+                <a href="#" class="btn-primary">
+                    Узнать больше
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container cta-wrapper reveal">
+
+            <div>
+                <h2>
+                    Попробуйте настоящую
+                    калмыцкую кухню
+                </h2>
+
+                <p>
+                    Закажите блюда или забронируйте столик
+                </p>
+            </div>
+
+            <button class="cta-btn">
+                Связаться с нами
+            </button>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contacts">
+        <div class="container footer-grid">
+
+            <div>
+                <h3>Калмыцкая кухня</h3>
+                <p>
+                    Вкус традиций.
+                    Тепло родной земли.
+                </p>
+            </div>
+
+            <div>
+                <h4>Навигация</h4>
+                <a href="#">О кухне</a>
+                <a href="#">Блюда</a>
+                <a href="#">Традиции</a>
+            </div>
+
+            <div>
+                <h4>Контакты</h4>
+                <p>+7 (900) 000-00-00</p>
+                <p>info@kalmyk-food.ru</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
